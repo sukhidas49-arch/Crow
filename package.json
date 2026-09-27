@@ -1,0 +1,20 @@
+{
+  "name": "crownx-helper",
+  "version": "1.0.0",
+  "description": "CrownX Helper — premium Discord exchange bot (I2C / C2I), single-file build",
+  "main": "index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node index.js --deploy"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "mongoose": "^8.7.0",
+    "dotenv": "^16.4.5",
+    "qrcode": "^1.5.4"
+  }
+}
